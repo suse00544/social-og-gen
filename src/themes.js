@@ -103,6 +103,48 @@ const themes = {
       '--card-border': 'rgba(168, 230, 207, 0.3)',
     },
   },
+
+  midnight: {
+    name: 'Midnight',
+    description: 'Deep black with subtle blue shimmer, premium feel',
+    vars: {
+      '--bg': 'linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 50%, #0d1b2a 100%)',
+      '--text-color': '#e8e8e8',
+      '--subtitle-color': 'rgba(232, 232, 232, 0.8)',
+      '--meta-color': 'rgba(232, 232, 232, 0.5)',
+      '--accent-color': '#818cf8',
+      '--card-bg': 'rgba(129, 140, 248, 0.06)',
+      '--card-border': 'rgba(129, 140, 248, 0.25)',
+    },
+  },
+
+  neon: {
+    name: 'Neon',
+    description: 'Dark background with vibrant neon green accents, cyberpunk vibes',
+    vars: {
+      '--bg': 'linear-gradient(180deg, #0f0f0f 0%, #1a0a2e 100%)',
+      '--text-color': '#00ff88',
+      '--subtitle-color': 'rgba(0, 255, 136, 0.8)',
+      '--meta-color': 'rgba(0, 255, 136, 0.55)',
+      '--accent-color': '#00ff88',
+      '--card-bg': 'rgba(0, 255, 136, 0.04)',
+      '--card-border': 'rgba(0, 255, 136, 0.3)',
+    },
+  },
+
+  rose: {
+    name: 'Rosé',
+    description: 'Soft pink-to-blush gradient, elegant and warm',
+    vars: {
+      '--bg': 'linear-gradient(135deg, #ffecd2 0%, #fcb69f 50%, #ff9a9e 100%)',
+      '--text-color': '#2d1b1b',
+      '--subtitle-color': 'rgba(45, 27, 27, 0.75)',
+      '--meta-color': 'rgba(45, 27, 27, 0.5)',
+      '--accent-color': '#e91e63',
+      '--card-bg': 'rgba(233, 30, 99, 0.06)',
+      '--card-border': 'rgba(233, 30, 99, 0.2)',
+    },
+  },
 };
 
 /**
