@@ -1,0 +1,38 @@
+# Batch configuration for social-og-gen
+# Generate multiple OG images at once with shared defaults
+
+defaults:
+  theme: gradient-purple
+  author: "Jane Developer"
+  domain: "janedeveloper.com"
+
+images:
+  - title: "Getting Started with Rust"
+    subtitle: "A practical guide for JavaScript developers"
+    tags: "rust, programming, tutorial"
+    theme: gradient-blue
+    out: "output/rust-getting-started.png"
+
+  - title: "Why I Switched to Linux"
+    subtitle: "My journey from macOS to Arch, and what I learned"
+    tags: "linux, developer-experience"
+    theme: dark-minimal
+    out: "output/switched-to-linux.png"
+
+  - title: "Building a CLI Tool in Node.js"
+    subtitle: "From zero to npm publish in 30 minutes"
+    tags: "nodejs, cli, open-source"
+    theme: ocean
+    out: "output/cli-tool-nodejs.png"
+
+  - title: "The Art of Code Review"
+    subtitle: "How to give feedback that helps, not hurts"
+    tags: "teamwork, best-practices"
+    theme: forest
+    out: "output/code-review.png"
+
+  - title: "Deploying with Confidence"
+    subtitle: "CI/CD pipelines that actually work"
+    tags: "devops, ci-cd, automation"
+    theme: sunset
+    out: "output/deploying-confidence.png"

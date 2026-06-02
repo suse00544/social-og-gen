@@ -1,0 +1,45 @@
+{
+  "name": "social-og-gen",
+  "version": "1.0.0",
+  "description": "Generate beautiful Open Graph / social media card images from the command line",
+  "main": "src/generator.js",
+  "bin": {
+    "og-gen": "./src/cli.js",
+    "social-og-gen": "./src/cli.js"
+  },
+  "scripts": {
+    "start": "node src/cli.js",
+    "test": "node test/basic.test.js"
+  },
+  "keywords": [
+    "og-image",
+    "open-graph",
+    "social-media",
+    "image-generator",
+    "cli",
+    "meta-tags",
+    "twitter-card",
+    "seo",
+    "developer-tools"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "playwright": "^1.44.0",
+    "yaml": "^2.4.0",
+    "yargs": "^17.7.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/user/social-og-gen"
+  },
+  "files": [
+    "src/",
+    "examples/",
+    "README.md",
+    "LICENSE"
+  ]
+}
